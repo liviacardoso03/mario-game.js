@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-.button{
+.button{ /*Em tela cheia*/
     visibility: hidden;
     width: 150px;
     position: absolute;
     margin-top: 210px;
-    margin-left: 340px;
+    margin-left: 440px;
 }
 
 .game-board{
@@ -22,9 +22,17 @@
     background: linear-gradient(#87CEEB, #E8F6FF)
 }
 
-.floor{
+.floor1{
     position: absolute;
     bottom: -17px;
+    display: inline-block;
+}
+
+.floor2{
+    position: absolute;
+    bottom: -17px;
+    display: inline-block;
+    margin-left: 200px;
 }
 
 .mario{
